@@ -1,0 +1,133 @@
+/* Main container styling */
+.container {
+    background-color: #000;  /* Black background */
+    padding: 20px;
+    color: white;  /* White text */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Title styling */
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;  /* White text */
+}
+
+/* Input and select container styling */
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: white;  /* White background */
+    color: black;  /* Black text */
+}
+
+/* Dropdown (select) styling */
+.select {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;  /* White background */
+    color: black;  /* Black text */
+}
+
+/* Button styling */
+.button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: white;  /* White background */
+    color: black;  /* Black text */
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: black;  /* Black background on hover */
+    color: white;  /* White text on hover */
+}
+
+.resultContainer {
+    background-color: white;  
+    color: black;  
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; 
+    color: black;  
+}
+
+.table th {
+    background-color: black; 
+    color: white; 
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;  
+}
+
+.table td {
+    background-color: white; 
+    color: black;  
+    padding: 8px;
+    border: 1px solid black; 
+}
+
+.error {
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.downloadButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.downloadButton:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .input {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .select {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
